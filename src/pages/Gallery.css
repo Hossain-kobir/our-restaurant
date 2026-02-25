@@ -1,0 +1,15 @@
+.gallery-page {
+  padding-top: 80px;
+}
+
+.gallery-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1920&q=80') center/cover;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.gallery-content {
+  background: #f8f9fa;
+  min-height: 70vh;
+}

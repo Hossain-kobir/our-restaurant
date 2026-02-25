@@ -1,0 +1,60 @@
+.contact-page {
+  padding-top: 80px;
+}
+
+.contact-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1920&q=80') center/cover;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.contact-content {
+  background: #f8f9fa;
+  min-height: 70vh;
+}
+
+.info-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.info-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.info-icon {
+  font-size: 2rem;
+  color: #ff6b6b;
+  margin-right: 1.5rem;
+  margin-top: 0.3rem;
+}
+
+.info-item h5 {
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.info-item p {
+  color: #7f8c8d;
+  margin-bottom: 0.3rem;
+}
+
+.map-container {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+}
